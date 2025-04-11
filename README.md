@@ -139,9 +139,9 @@ In Termux if you are rooted, you can just replace every `adb shell` with `su -c`
 
 for easy use display function you must use **[Termux & Termux API](https://f-droid.org/)** from F-Droid by **[Termux-notification](https://wiki.termux.com/wiki/Termux-notification)**.
 
-if you face issue: **adb: no devices/emulator found**
-follow these steps:
-&nbsp;connect your phone to pc
+if you face issue: **adb: no devices/emulator found**follow these steps:
+
+connect your phone to pc
 
 	adb kill-server
 
