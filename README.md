@@ -151,6 +151,9 @@ then
 
 now disconnect your phone to pc do same in termux
 
+termux-notification cmd:
+	termux-notification -t "Enter idle mode" --button1 "Start idle" --button1-action "adb shell CLASSPATH=/storage/emulated/0/DisplayToggle.dex app_process / DisplayToggle 0"  --ongoing -i "<id>"
+
 # Credits
 
 **[rom1v](https://blog.rom1v.com/2018/03/introducing-scrcpy/#run-a-java-main-on-android) - Method to make java code executable**
