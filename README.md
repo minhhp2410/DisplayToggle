@@ -151,7 +151,7 @@ then
 
 now disconnect your phone to pc do same in termux
 
-termux-notification:
+termux-notification bash script:
 
 	termux-notification -t "Enter idle mode" --button1 "Start idle" --button1-action "adb shell CLASSPATH=/storage/emulated/0/DisplayToggle.dex app_process / DisplayToggle 0"  --ongoing -i "9999"
 
